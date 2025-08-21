@@ -11,11 +11,9 @@ body {
   margin: 0;
   box-sizing: border-box;
 
-  font-family: Roboto, sans-serif;
-  font-optical-sizing: auto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings: 'wdth' 100;
 }
 
 header {
@@ -71,8 +69,7 @@ header {
 }
 
 .nav__link.is-active,
-.nav__link:hover,
-.nav__link [data-qa='hover'] {
+.nav__link:hover {
   color: var(--blue);
 }
 
